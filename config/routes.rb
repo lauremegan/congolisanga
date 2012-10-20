@@ -1,4 +1,14 @@
 Congolisanga::Application.routes.draw do
+  get "home_pages/Home"
+
+  get "home_pages/AboutUs"
+
+  get "home_pages/News"
+
+  get "home_pages/UpdateRDC"
+
+  get "home_pages/LinksTo"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
