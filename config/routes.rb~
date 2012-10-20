@@ -1,20 +1,13 @@
 Congolisanga::Application.routes.draw do
-  root to: 'home_pages#Home'
-  
-  match '/aboutUs',   to: 'home_pages#AboutUs'
-  match '/news', to: 'home_pages#News'
-  match '/updateRDC', to: 'home_pages#UpdateRDC'
-  match '/linksTo', to: 'home_pages#LinksTo'
-  
-  #get "home_pages/Home"
+  get "home_pages/Home"
 
-  #get "home_pages/AboutUs"
+  get "home_pages/AboutUs"
 
-  #get "home_pages/News"
+  get "home_pages/News"
 
-  #get "home_pages/UpdateRDC"
+  get "home_pages/UpdateRDC"
 
-  #get "home_pages/LinksTo"
+  get "home_pages/LinksTo"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
